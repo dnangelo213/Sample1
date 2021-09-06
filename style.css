@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+body {
+    background-image: url("ffxiv.jpg");
+    background-size: 1920px 1080px;
+    background-color: #cccccc;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.mainContent {
+    width: 1920px;
+    height: 1080px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.login {
+    background-image: url("dragoon.jpg");
+    background-size: 610px 400px;
+    width: 600px;
+    height: 400px;
+    border-radius: 24px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+label {
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+button {
+    width: 10%;
+    height: 33px;
+    margin: 0;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
